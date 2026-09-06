@@ -1,0 +1,263 @@
+// ============================================================
+// BYTE MINIZ - Menu Data
+// ============================================================
+// To add new categories or items in future, simply add to this file.
+// Each category has: id, name, emoji, description, image, items[]
+// Each item has: id, name, description, price, isVeg, isPopular, isNew
+// ============================================================
+
+export const menuCategories = [
+  {
+    id: 'momos',
+    name: 'Momos',
+    emoji: '🥟',
+    description: 'Handcrafted steamed & fried dumplings made with love',
+    image: '/momos.jpg',
+    items: [
+      {
+        id: 'veg-steam-momos',
+        name: 'Veg Steam Momos',
+        description: 'Soft steamed dumplings stuffed with fresh veggies & spices, served with our signature chili sauce',
+        price: 60,
+        isVeg: true,
+        isPopular: true,
+        isNew: false,
+      },
+      {
+        id: 'chicken-steam-momos',
+        name: 'Chicken Steam Momos',
+        description: 'Juicy minced chicken wrapped in thin dough, steamed to perfection with our special seasoning',
+        price: 80,
+        isVeg: false,
+        isPopular: true,
+        isNew: false,
+      },
+      {
+        id: 'veg-fried-momos',
+        name: 'Veg Fried Momos',
+        description: 'Golden crispy fried momos with vegetable filling, served with garlic chili chutney',
+        price: 70,
+        isVeg: true,
+        isPopular: false,
+        isNew: false,
+      },
+      {
+        id: 'chicken-fried-momos',
+        name: 'Chicken Fried Momos',
+        description: 'Crispy fried chicken momos with a satisfying crunch, packed with flavourful filling',
+        price: 90,
+        isVeg: false,
+        isPopular: false,
+        isNew: false,
+      },
+      {
+        id: 'paneer-momos',
+        name: 'Paneer Momos',
+        description: 'Special cottage cheese & herb stuffed momos, a vegetarian delight',
+        price: 80,
+        isVeg: true,
+        isPopular: false,
+        isNew: true,
+      },
+      {
+        id: 'tandoori-momos',
+        name: 'Tandoori Momos',
+        description: 'Steamed momos marinated in tandoori masala and grilled to get that smoky flavour',
+        price: 100,
+        isVeg: false,
+        isPopular: true,
+        isNew: true,
+      },
+    ],
+  },
+  {
+    id: 'noodles',
+    name: 'Noodles',
+    emoji: '🍜',
+    description: 'Wok-tossed noodles with fresh vegetables and bold flavours',
+    image: '/noodles.jpg',
+    items: [
+      {
+        id: 'veg-chow-mein',
+        name: 'Veg Chow Mein',
+        description: 'Classic stir-fried noodles with crunchy vegetables in savoury soy sauce',
+        price: 70,
+        isVeg: true,
+        isPopular: true,
+        isNew: false,
+      },
+      {
+        id: 'chicken-chow-mein',
+        name: 'Chicken Chow Mein',
+        description: 'Flavourful chicken noodles with mixed vegetables, tossed in our secret sauce',
+        price: 90,
+        isVeg: false,
+        isPopular: true,
+        isNew: false,
+      },
+      {
+        id: 'veg-hakka-noodles',
+        name: 'Veg Hakka Noodles',
+        description: 'Indo-Chinese style hakka noodles with bell peppers, cabbage and spring onion',
+        price: 75,
+        isVeg: true,
+        isPopular: false,
+        isNew: false,
+      },
+      {
+        id: 'chicken-hakka-noodles',
+        name: 'Chicken Hakka Noodles',
+        description: 'Tender chicken strips with hakka noodles and colorful vegetables in bold sauce',
+        price: 95,
+        isVeg: false,
+        isPopular: false,
+        isNew: false,
+      },
+      {
+        id: 'schezwan-noodles',
+        name: 'Schezwan Noodles',
+        description: 'Fiery and bold schezwan sauce tossed with noodles and veggies. Spicy lover\'s choice!',
+        price: 80,
+        isVeg: true,
+        isPopular: false,
+        isNew: true,
+      },
+    ],
+  },
+  {
+    id: 'beverages',
+    name: 'Beverages',
+    emoji: '☕',
+    description: 'Hot & refreshing drinks to complement your meal',
+    image: '/tea_coffee.jpg',
+    items: [
+      {
+        id: 'masala-tea',
+        name: 'Masala Chai',
+        description: 'Aromatic Indian spiced tea with ginger, cardamom and cinnamon, brewed to perfection',
+        price: 20,
+        isVeg: true,
+        isPopular: true,
+        isNew: false,
+      },
+      {
+        id: 'black-tea',
+        name: 'Black Tea',
+        description: 'Classic strong black tea, simple and refreshing',
+        price: 15,
+        isVeg: true,
+        isPopular: false,
+        isNew: false,
+      },
+      {
+        id: 'lemon-tea',
+        name: 'Lemon Tea',
+        description: 'Refreshing lemon tea with a tangy twist and hint of honey — perfect any time of day',
+        price: 25,
+        isVeg: true,
+        isPopular: true,
+        isNew: false,
+      },
+      {
+        id: 'black-coffee',
+        name: 'Black Coffee',
+        description: 'Bold and rich black coffee to kickstart your day or enjoy with momos',
+        price: 30,
+        isVeg: true,
+        isPopular: false,
+        isNew: false,
+      },
+      {
+        id: 'milk-coffee',
+        name: 'Milk Coffee',
+        description: 'Creamy and comforting coffee with perfectly steamed milk, a café favourite',
+        price: 40,
+        isVeg: true,
+        isPopular: true,
+        isNew: false,
+      },
+    ],
+  },
+  // ── Add new categories below this line ──
+  // {
+  //   id: 'new-category',
+  //   name: 'Category Name',
+  //   emoji: '🍱',
+  //   description: 'Category description',
+  //   image: '/category-image.jpg',
+  //   items: [ ... ],
+  // },
+];
+
+export const businessInfo = {
+  name: 'Byte Miniz',
+  tagline: 'Every Bite, A Delight',
+  description: 'Your favourite neighbourhood food spot for steaming hot momos, slurpy noodles, and soothing beverages. We serve happiness in every bite!',
+  address: 'Byte Miniz Food Shop',
+  city: 'India',
+  phone: '+91-XXXXXXXXXX', // Update with real number
+  whatsapp: '+91XXXXXXXXXX',  // Update with real WhatsApp number
+  email: 'byteminiz@gmail.com', // Update with real email
+  googleMapsLink: 'https://share.google/pM0N2NxdUBvi2mnkV',
+  hours: [
+    { day: 'Monday – Friday', time: '9:00 AM – 9:00 PM' },
+    { day: 'Saturday', time: '9:00 AM – 10:00 PM' },
+    { day: 'Sunday', time: '10:00 AM – 8:00 PM' },
+  ],
+  social: {
+    whatsapp: '+91XXXXXXXXXX',
+    instagram: '',
+    facebook: '',
+  },
+};
+
+export const reviews = [
+  {
+    id: 1,
+    name: 'Priya Sharma',
+    rating: 5,
+    date: 'August 2026',
+    text: 'Best momos I\'ve ever had! The chicken steam momos are absolutely divine. The chili sauce is the perfect companion. Highly recommend this place to everyone.',
+    avatar: 'PS',
+  },
+  {
+    id: 2,
+    name: 'Rahul Kumar',
+    rating: 5,
+    date: 'July 2026',
+    text: 'Amazing place! The masala chai here is so good — perfectly spiced and comforting. The noodles are also super tasty. Great value for money. Will definitely be coming back!',
+    avatar: 'RK',
+  },
+  {
+    id: 3,
+    name: 'Anjali Mehta',
+    rating: 5,
+    date: 'August 2026',
+    text: 'Byte Miniz catered our office event and they did an outstanding job! The momos were fresh, hot and absolutely delicious. The team was professional and punctual. 10/10!',
+    avatar: 'AM',
+  },
+  {
+    id: 4,
+    name: 'Sanjay Thapa',
+    rating: 4,
+    date: 'June 2026',
+    text: 'Really love the tandoori momos — unique and flavourful. The lemon tea is also really refreshing. Staff is friendly and the food comes out quickly. Great little spot!',
+    avatar: 'ST',
+  },
+  {
+    id: 5,
+    name: 'Deepika Rao',
+    rating: 5,
+    date: 'September 2026',
+    text: 'The schezwan noodles are fire! 🔥 And the paneer momos are incredible. So glad I discovered this place. Perfect for a quick bite or a full meal with friends.',
+    avatar: 'DR',
+  },
+  {
+    id: 6,
+    name: 'Vikram Singh',
+    rating: 5,
+    date: 'August 2026',
+    text: 'Ordered bulk momos for my sister\'s birthday party and Byte Miniz delivered beyond expectations. The quality was consistent and everyone loved them. Will definitely order again for events!',
+    avatar: 'VS',
+  },
+];
