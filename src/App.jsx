@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CartDrawer from './components/CartDrawer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+import InstallPWA from './components/InstallPWA';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       {/* Overlays */}
       <CartDrawer />
       <FloatingWhatsApp />
+      <InstallPWA />
     </CartProvider>
   );
 }
