@@ -101,7 +101,7 @@ export default function Footer() {
         <div className="container footer-bottom-inner">
           <p>© {year} Byte Miniz. All rights reserved.</p>
           <p className="footer-made-with">
-            Made with <Heart size={12} fill="currentColor" /> for food lovers
+            Made with <Heart size={12} fill="currentColor" /> for food lovers | Designed by <a href="https://thoshotech.com" target="_blank" rel="noopener noreferrer" style={{ color: '#ff6600', textDecoration: 'none', fontWeight: 'bold' }}>Thosho Tech</a>
           </p>
         </div>
       </div>
